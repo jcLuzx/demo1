@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+}
+#slider, #main{
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 800px){
+  #slider, #main{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
